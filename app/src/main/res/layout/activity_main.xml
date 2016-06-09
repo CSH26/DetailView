@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout_back"
+    tools:context="com.example.tj.detailview.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:background="@drawable/basket_layout"
+        android:id="@+id/titleLayout2"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="메뉴 상세보기"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/detail_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/foodView"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/foodName"
+                android:padding="4dp"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/foodComent"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/tasteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/spicy" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dalkomm" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saekomm" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nkki" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </RelativeLayout>
+
+</LinearLayout>
