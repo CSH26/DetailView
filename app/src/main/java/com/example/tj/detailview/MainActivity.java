@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+	//Test
     private final static String TAG = "MainActivity";
 
     private final static int KIND_OF_TASTE = 4;
